@@ -7,6 +7,8 @@ Se uso:
   
   Java JDK: 1.8
   
+  POSTMAN
+  
   MySQLWorkbench
 
 Dependecias que se usaron:
