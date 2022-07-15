@@ -3,7 +3,7 @@ Estructura en Spring referente a rest y usando JPA para las consultas
 
 Se uso:
 
-  Eclipse
+  Eclipse Enterprise
   
   Java JDK: 1.8
   
@@ -12,12 +12,15 @@ Se uso:
   MySQLWorkbench
 
 Dependecias que se usaron:
+
     Lombok: Nos ayuda a genererar tanto get y set de las clases,
             en caso no te reconozca debes instalar lombok en tu
             eclipse.
+
     MysqlConnector: La conexion de la base de datos.
+    
     JPAData: Nos ayuda hacer las consultas de una forma más facil y ordenada.
-    		
+
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
