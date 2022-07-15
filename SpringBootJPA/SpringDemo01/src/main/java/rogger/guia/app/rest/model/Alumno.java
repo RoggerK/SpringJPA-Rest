@@ -19,12 +19,13 @@ import lombok.NoArgsConstructor;
 //nombremos la tabla a la cual deseamos señalar
 @Table(name = "alumnos")
 public class Alumno {
-	//indicamos id de la tabla
+	// indicamos id de la tabla
 	@Id
-	//indicamos que es autoincremental
+	// indicamos que es autoincremental
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idalumnos;
-	//name: nombre de la columna, nullable: en false no permite nulos,  length: das limite de entrada
+	// name: nombre de la columna, nullable: en false no permite nulos, length: das
+	// limite de entrada
 	@Column(name = "cedula", nullable = false, length = 8)
 	private String cedula;
 	@Column(name = "nombres", nullable = false)

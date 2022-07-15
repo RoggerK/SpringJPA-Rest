@@ -9,14 +9,13 @@ import rogger.guia.app.rest.model.Alumno;
 @Repository
 //la clase es una interfaz para que here las propiedades de JpaRepository
 //por otra parte <Alumno(Es la entidad), Integer(el tipo de la id)>
-public interface AlumnoRepository extends JpaRepository<Alumno, Integer>{
-		/*
-		* Campo donde puedes llamar a tus procedimientos almacenados
-		* personalizados
-		*
-		* @Query(value = "{Call sp_MantListarAlumno()}", nativeQuery = true)
-    	* List<Alumno> listarAlumno();
-		* 
-		* */
-	
+public interface AlumnoRepository extends JpaRepository<Alumno, Integer> {
+	/*
+	 * Campo donde puedes llamar a tus procedimientos almacenados personalizados
+	 *
+	 * @Query(value = "{Call sp_MantListarAlumno()}", nativeQuery = true)
+	 * List<Alumno> listarAlumno();
+	 * 
+	 */
+
 }
